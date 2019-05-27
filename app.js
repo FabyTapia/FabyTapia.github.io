@@ -1,3 +1,5 @@
+//funcionalidad navbar
+
 var w = window.innerWidth,
     h = window.innerHeight,
     canvas = document.getElementById('bubble'),
@@ -102,3 +104,10 @@ $(document)
                 .fadeIn();
         });
     });
+// aboutMe-page//
+
+document.getElementById("aboutMeBtn").addEventListener("click", (evento) => {
+    evento.preventDefault();
+    document.getElementById("hero").style.display = "none";
+    document.getElementById("aboutMe").style.display = "block";
+});

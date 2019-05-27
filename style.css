@@ -8,6 +8,9 @@ html {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+
+/*Estilos navbar*/
+
 #mainnav {
     position: absolute;
     font-family: 'Roboto Condensed', sans-serif;
@@ -51,7 +54,7 @@ body,
     height: 100%;
 }
 
-.hero {
+#hero {
     width: 100%;
     min-height: 600px;
     background-image: black;
@@ -93,3 +96,20 @@ h1 span {
     margin-left: -30px;
     color: orange;
 }
+
+
+/*
+#aboutMe {
+    display: none;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: orange;
+    text-align: center;
+    margin-top: 4rem;
+    font-size: 50px;
+}
+
+p {
+    text-align: center;
+    color: white;
+}
+*/
