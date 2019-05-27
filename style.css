@@ -111,6 +111,7 @@ h2 {
     font-family: 'Roboto Condensed', sans-serif;
     color: orange;
     text-align: center;
+    margin-top: 10rem;
 }
 
 p {
@@ -118,4 +119,8 @@ p {
     font-size: 24px;
     text-align: center;
     color: white;
+}
+
+.imgtwo {
+    margin-top: 10rem;
 }
