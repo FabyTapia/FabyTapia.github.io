@@ -1,153 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700i" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 
-  <link rel="stylesheet" href="style.css">
-  <title>Document</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700i" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#aboutMe">Sobre mi</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#skill">Habilidades</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#project">Proyectos</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#contact">Contacto</a>
-              </li>
-          </ul>
+    <div class="container">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#aboutMe">Sobre mi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skill">Habilidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#project">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <!-- page one -->
+    <section id="home" class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center">
+                <h1>FABIOLA TAPIA<br>
+                    <span>FRONT-END<br>DEVELOPER</span></h1>
+            </div>
         </div>
-      </nav>
-      <!-- page one -->
-      <section>
-        <div class="row" id="home">
-          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center">
-            <h1>FABIOLA TAPIA<br>
-              <span>FRONT-END<br>DEVELOPER</span></h1>
-          </div>
-        </div>
-      </section>
-      <!-- page two -->
-      <section>
-        <div class="row" id="aboutMe">
-            <div class="col-sm-12 col-md-8 col-lg-8">
+    </section>
+    <!-- page two -->
+    <section id="aboutMe" class="container-fluid">
+        <div class="row">
+            <div class="col-sm-6 col-md-6 col-lg-6">
                 <h2 class="text-center">Sobre Mi</h2>
-                <div class="col-sm-12 col-md-4 col-lg-4">
+                <div class="col-sm-6 col-md-6 col-lg-6">
                     <img class="myPhoto" src="./img/adduser_añadir_3553.png" alt="">
                 </div>
-                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe illum incidunt, architecto modi molestias maxime ducimus deserunt amet ex, laboriosam sed impedit iste eum aut corrupti quas numquam iusto rem!
+                <p class="textAboutMe"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe illum incidunt, architecto modi molestias maxime ducimus deserunt amet ex, laboriosam sed impedit iste eum aut corrupti quas numquam iusto rem!
                 </p>
             </div>
         </div>
-      </section>
-      <!-- page Three -->
-      <section>
-          <h2 class="text-center">Habilidades Tecnicas</h2>
-        <div class="row" id="skill">
-              <div class="col-4 col-md-4 col-lg-4">
+    </section>
+    <!-- page Three -->
+    <section id="skill" class="container-fluid">
+        <h2 class="titleTwo text-center">Habilidades Tecnicas</h2>
+        <div class="row">
+            <div class="col-4 col-md-4 col-lg-4">
                 <i class="devicon-html5-plain-wordmark"></i>
-              </div>
-              <div class="col-4 col-md-4 col-lg-4">
+            </div>
+            <div class="col-4 col-md-4 col-lg-4">
                 <i class="devicon-css3-plain-wordmark"></i>
-              </div>
-              <div class="col-4 col-md-4 col-lg-4">
+            </div>
+            <div class="col-4 col-md-4 col-lg-4">
                 <i class="devicon-javascript-plain"></i>
-              </div>  
-              <div class="col-4 col-md-4 col-lg-4">
+            </div>
+            <div class="col-4 col-md-4 col-lg-4">
                 <i class="devicon-angularjs-plain"></i>
-              </div> 
-              <div class="col-4 col-md-4 col-lg-4">
+            </div>
+            <div class="col-4 col-md-4 col-lg-4">
                 <i class="devicon-bootstrap-plain-wordmark"></i>
-              </div> 
-              <div class="col-4 col-md-4 col-lg-4">
+            </div>
+            <div class="col-4 col-md-4 col-lg-4">
                 <i class="devicon-git-plain-wordmark"></i>
-              </div> 
-              <div class="col-4 col-md-4 col-lg-4">
+            </div>
+            <div class="col-4 col-md-4 col-lg-4">
                 <i class="devicon-github-plain-wordmark colored"></i>
-              </div> 
-              <div class="col-4 col-md-4 col-lg-4">
+            </div>
+            <div class="col-4 col-md-4 col-lg-4">
                 <i class="devicon-nodejs-plain"></i>
-              </div> 
-              <div class="col-4 col-md-4 col-lg-4">
+            </div>
+            <div class="col-4 col-md-4 col-lg-4">
                 <i class="devicon-visualstudio-plain"></i>
-              </div>  
+            </div>
         </div>
-      </section>
-      <!-- pahe four -->
-      <section>
-        <div class="row" id="project">
-          <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
-            <h2 class="text-center">Proyectos</h2>
-          </div>
-          <div class="card-deck">
-            <div class="card">
-              <img src="./img/Cipher-Code.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Codigo Secreto</h5>
-                <p class="card-text">En mi primer proyecto, cree una aplicacion web de mensajeria, en donde el usuario pueda crear un mensaje secreto con la tecnica de cifrado Cesar. aqui el usuario tiene la opcion, de cifrar un mensaje o descifrarlo.</p>
-                <div class="card-footer">
-                    <small class="text-muted"><a href="https://fabytapia.github.io/SCL008-Cipher/src/index.html" class="btn btn-primary">Link</a></small>
-                  </div>
-              </div>
+    </section>
+    <!-- page four -->
+    <section id="project" class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                <h2 class="text-center">Proyectos</h2>
             </div>
-            <div class="card">
-              <img src="./img/Champions-Data.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Champions Data</h5>
-                <p class="card-text"> Aplicación web responsiva que fue hecha pensada en aquellos jugadores que recien estan adentrandose en el universo LOL y busquen cierta orientación al momento de elegir sus champions. En ella se puede visualizar a los champions, obtener una breve reseña sobre sus caracteristicas y también conocerlos a travez de un filtro por tipo de juego (rol).</p>
-                <div class="card-footer">
-                    <small class="text-muted"><a href="https://fabytapia.github.io//SCL008-data-lovers/src/index.html" class="btn btn-primary">Link</a></small>
-                  </div>
-              </div>
-            </div>
-            <div class="card">
-              <img src="./img/Pase-noma.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Pase noma</h5>
-                <p class="card-text">Aplicación desarrollada para tablets que facilitará tu registro de visitasgemelas
-                   y lo guardará de manera eficiente; No solo será una ventaja para ti, sino también para la recepcionista que no es una máquina, pero que puede usar una para beneficiar su trabajo.</p>
-                   <div class="card-footer">
-                      <small class="text-muted"><a href="https://fabytapia.github.io/SCL008-visitors/" class="btn btn-primary">Link</a></small>
+            <div class="card-deck">
+                <div class="card">
+                    <img src="./img/Cipher-Code.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Codigo Secreto</h5>
+                        <p class="card-text">En mi primer proyecto, cree una aplicacion web de mensajeria, en donde el usuario pueda crear un mensaje secreto con la tecnica de cifrado Cesar. aqui el usuario tiene la opcion, de cifrar un mensaje o descifrarlo.</p>
+                        <div class="card-footer">
+                            <small class="text-muted"><a href="https://fabytapia.github.io/SCL008-Cipher/src/index.html" class="btn btn-primary">Link</a></small>
+                        </div>
                     </div>
-              </div>
+                </div>
+                <div class="card">
+                    <img src="./img/Champions-Data.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Champions Data</h5>
+                        <p class="card-text"> Aplicación web responsiva que fue hecha pensada en aquellos jugadores que recien estan adentrandose en el universo LOL y busquen cierta orientación al momento de elegir sus champions. En ella se puede visualizar a los champions,
+                            obtener una breve reseña sobre sus caracteristicas y también conocerlos a travez de un filtro por tipo de juego (rol).</p>
+                        <div class="card-footer">
+                            <small class="text-muted"><a href="https://fabytapia.github.io//SCL008-data-lovers/src/index.html" class="btn btn-primary">Link</a></small>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./img/Pase-noma.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Pase noma</h5>
+                        <p class="card-text">Aplicación desarrollada para tablets que facilitará tu registro de visitasgemelas y lo guardará de manera eficiente; No solo será una ventaja para ti, sino también para la recepcionista que no es una máquina, pero que puede usar
+                            una para beneficiar su trabajo.</p>
+                        <div class="card-footer">
+                            <small class="text-muted"><a href="https://fabytapia.github.io/SCL008-visitors/" class="btn btn-primary">Link</a></small>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </section>
-      <!-- page five -->
-      <section>
-        <div class="row" id="contact">
-          <div class="col-12 text-center">
-            <h2>Contacto</h2>
-            <p><strong>Me puedes encontrar en:</strong></p>
-        <p>ftapiamorales@gmail.com</p>
-        <a href="https://www.linkedin.com/in/fabiola-tapia-morales-5b37ab70" target="_blank"><img src="./img/in.png" alt=""></a>
-        <a href="https://github.com/FabyTapia" target="_blank"><i class="devicon-github-plain-wordmark colored"></i></a>
-          </div>
+    </section>
+
+
+    <!-- page five -->
+    <!--  
+    <footer fixed-botton id="contact">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2 class="text-center">Contacto</h2>
+                <p><strong>Me puedes encontrar en:</strong></p>
+            </div>
+            <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                <p>ftapiamorales@gmail.com</p>
+            </div>
+            <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                <a href="https://www.linkedin.com/in/fabiola-tapia-morales-5b37ab70" target="_blank"><img src="./img/in.png" alt=""></a>
+            </div>
+            <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                <a href="https://github.com/FabyTapia" target="_blank"><i class="devicon-github-plain-wordmark colored"></i></a>
+            </div>
         </div>
-      </section>
-      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    
+    </footer>
+    -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
 </body>
+
 </html>

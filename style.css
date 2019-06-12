@@ -1,62 +1,120 @@
-*{
+* {
     font-family: 'Roboto Condensed', sans-serif;
-}
-/* pag one */
-#home{
-   display: flex;
-   padding-top: 140px;
-   align-items: center;
-   justify-content:space-around;
-   height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
 
-h1{
-    font-weight: 700; 
-    font-size: 3em;  
+a:hover {
+    background-color: #ed8f31;
+    position: fixed;
 }
-span{
+
+.bg-light {
+    background-color: orange !important;
+}
+
+
+/* pag one */
+
+#home {
+    background: #692F6F;
+    display: flex;
+    padding-top: 1px;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 3em;
+    color: white;
+}
+
+span {
     color: orange;
 }
+
+
 /* page two */
-#aboutMe{
+
+#aboutMe {
+    background-color: #dee2e6;
     display: flex;
     padding-top: 140px;
     height: 100vh;
 }
-h2{
-    font-weight: 700; 
-    font-size: 3em; 
-    padding-bottom: 30px; 
 
+h2 {
+    font-weight: 700;
+    font-size: 4em;
+    padding-bottom: 30px;
+    color: white;
+    text-decoration-color: #565656;
 }
-p{
+
+
+/* p {
     margin-top: 0;
     margin-bottom: 1rem;
     margin-right: 1rem;
     margin-left: 3rem;
+} */
 
-}
-.myPhoto{
+
+/*  
+.myPhoto {
     display: flex;
     margin: 70px;
     width: 170px;
     margin-right: 3rem;
     vertical-align: middle;
 }
+*/
+
+
 /* page three */
-#skill, #project, #contact{
+
+#skill {
+    background-color: #692F6F;
     display: flex;
     padding-top: 140px;
     height: 100vh;
 }
-img{
+
+.titleTwo {
+    padding-top: 130px;
+}
+
+img {
     display: flex;
     border-style: groove;
-   /* margin-right: 3rem;
-    margin-left: 3rem; */ 
 }
+
+
 /* page four */
-i{
+
+i {
     display: flex;
     font-size: 100px;
+    margin-left: 10px;
+}
+
+#project {
+    display: flex;
+    background-color: #dee2e6;
+    padding-top: 120px;
+    height: 100vh;
+    padding-bottom: 30px;
+}
+
+
+/* page five */
+
+.contact {
+    display: flex;
+    padding-top: 140px;
+    height: 100vh;
+    width: 100vw;
 }
