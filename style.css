@@ -14,7 +14,6 @@
             background-color: orange !important;
         }
         /* pag one */
-        /*  */
         
         #home {
             background: #692F6F;
@@ -39,13 +38,25 @@
         #aboutMe {
             background-color: #393e46;
             display: flex;
-            padding-top: 140px;
+            padding-top: 100px;
             height: 100vh;
         }
         
         .textAboutMe {
-            align-items: center;
+            display: flex;
             color: white;
+            padding: 70px
+        }
+        
+        .myPhoto {
+            margin: auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            width: 300px;
+            height: 300px;
+            border-radius: 160px;
+            border: 10px solid #666;
         }
         
         h2 {
@@ -55,37 +66,14 @@
             color: white;
             text-decoration-color: #565656;
         }
-        /* p {
-    margin-top: 0;
-    margin-bottom: 1rem;
-    margin-right: 1rem;
-    margin-left: 3rem;
-} */
-        /*  
-.myPhoto {
-    display: flex;
-    margin: 70px;
-    width: 170px;
-    margin-right: 3rem;
-    vertical-align: middle;
-}
-*/
         /* page three */
         
         #skill {
             background-color: #eeeeee;
             display: flex;
+            flex-flow: column wrap;
             padding-top: 140px;
             height: 100vh;
-        }
-        
-        .titleTwo {
-            padding-top: 130px;
-        }
-        
-        img {
-            display: flex;
-            border-style: groove;
         }
         /* page four */
         
@@ -97,64 +85,27 @@
         
         #project {
             display: flex;
+            justify-content: space-between;
             background-color: #7d4d9b;
-            padding-top: 120px;
+            padding-top: 100px;
             height: 100vh;
             padding-bottom: 30px;
         }
         
-        .nameProject {
-            font-size: 2em;
-            padding-bottom: 27px;
-            color: white;
-            background-color: black;
+        h5 {
+            font-size: 1.5em;
         }
-        
-        .flip-card {
-            background-color: transparent;
-            width: 300px;
-            height: 300px;
-            perspective: 1000px;
-        }
-        
-        .flip-card-inner {
-            position: relative;
-            width: 100%;
-            height: 100%;
-            text-align: center;
-            transition: transform 0.6s;
-            transform-style: preserve-3d;
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-        }
-        
-        .flip-card:hover .flip-card-inner {
-            transform: rotateY(180deg);
-        }
-        
-        .flip-card-front,
-        .flip-card-back {
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            backface-visibility: hidden;
-        }
-        
-        .flip-card-front {
-            background-color: black;
-            color: black;
-        }
-        
-        .flip-card-back {
-            color: black;
-            color: white;
-            transform: rotateY(180deg);
-        }
-        /* estilos cards */
         /* page five */
         
         #contact {
             background: #989898;
             display: flex;
+            justify-content: center;
             padding-top: 140px;
             height: 100vh;
+        }
+        
+        img {
+            display: flex;
+            font-size: 100px;
         }
