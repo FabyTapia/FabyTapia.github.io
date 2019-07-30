@@ -5,6 +5,17 @@
             box-sizing: border-box;
         }
         
+        .row {
+            margin: 0;
+        }
+        
+        .starWelcome {
+            /* Aposition: fixed; */
+            top: 50%;
+            transform: translate(-50%, -50%);
+            left: 50%;
+        }
+        
         a:hover {
             background-color: #ed8f31;
             position: fixed;
@@ -18,7 +29,7 @@
         #home {
             background: #692F6F;
             display: flex;
-            padding-top: 1px;
+            padding-top: 100px;
             align-items: center;
             justify-content: space-around;
             height: 100vh;
@@ -32,20 +43,22 @@
         
         span {
             color: orange;
+            text-align: right !important
         }
         /* page two */
         
         #aboutMe {
             background-color: #393e46;
             display: flex;
-            padding-top: 100px;
+            padding-top: 69px;
             height: 100vh;
         }
         
         .textAboutMe {
             display: flex;
             color: white;
-            padding: 70px
+            padding: 40px;
+            font-size: medium;
         }
         
         .myPhoto {
@@ -53,8 +66,8 @@
             display: flex;
             align-items: center;
             justify-content: space-around;
-            width: 300px;
-            height: 300px;
+            width: 250px;
+            height: 250px;
             border-radius: 160px;
             border: 10px solid #666;
         }
@@ -72,8 +85,8 @@
             background-color: #eeeeee;
             display: flex;
             flex-flow: column wrap;
-            padding-top: 140px;
-            height: 100vh;
+            padding-top: 60px;
+            min-height: 100vh;
         }
         /* page four */
         
@@ -83,12 +96,17 @@
             margin-left: 10px;
         }
         
+        .imgFire {
+            width: 230px;
+            height: 100px;
+        }
+        
         #project {
             display: flex;
             justify-content: space-between;
             background-color: #7d4d9b;
             padding-top: 100px;
-            height: 100vh;
+            min-height: 100vh;
             padding-bottom: 30px;
         }
         
