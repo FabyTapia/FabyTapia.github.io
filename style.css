@@ -29,15 +29,15 @@
         #home {
             background: #692F6F;
             display: flex;
-            padding-top: 100px;
-            align-items: center;
+            padding-top: 200px;
+            align-items: left;
             justify-content: space-around;
             height: 100vh;
         }
         
         h1 {
             font-weight: 700;
-            font-size: 3em;
+            font-size: 4em;
             color: white;
         }
         
