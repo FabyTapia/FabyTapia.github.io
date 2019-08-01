@@ -5,6 +5,22 @@
             box-sizing: border-box;
         }
         
+        .navbar {
+            position: relative;
+            width: 100%;
+            background-color: orange;
+        }
+        
+        a {
+            color: white!important;
+        }
+        
+        .navbar-toggler {
+            border-color: #1c1c1c!important;
+            font-size: 1.25rem;
+            line-height: 1;
+        }
+        
         .row {
             margin: 0;
         }
@@ -15,23 +31,14 @@
             transform: translate(-50%, -50%);
             left: 50%;
         }
-        
-        a:hover {
-            background-color: #ed8f31;
-            position: fixed;
-        }
-        
-        .bg-light {
-            background-color: orange !important;
-        }
         /* pag one */
         
         #home {
-            background: #692F6F;
+            background: #1c1c1c;
+            /* #692F6F; */
             display: flex;
             padding-top: 200px;
-            align-items: left;
-            justify-content: space-around;
+            justify-content: flex-start;
             height: 100vh;
         }
         
@@ -51,21 +58,23 @@
             background-color: #393e46;
             display: flex;
             padding-top: 69px;
-            height: 100vh;
+            min-height: 100vh;
         }
         
         .textAboutMe {
-            display: flex;
+            display: inline-block;
             color: white;
             padding: 40px;
-            font-size: medium;
+            padding: 10%;
+            font-size: 1.4em;
+            text-align: center;
         }
         
         .myPhoto {
             margin: auto;
             display: flex;
-            align-items: center;
-            justify-content: space-around;
+            /* align-items: center; */
+            /* justify-content: space-around; */
             width: 250px;
             height: 250px;
             border-radius: 160px;
@@ -82,11 +91,131 @@
         /* page three */
         
         #skill {
-            background-color: #eeeeee;
+            background-color: white;
             display: flex;
             flex-flow: column wrap;
             padding-top: 60px;
             min-height: 100vh;
+        }
+        
+        .skillText {
+            color: #1c1c1c!important;
+        }
+        
+        bcolor-4BA1AA {
+            background-color: #4BA1AA;
+        }
+        
+        .bcolor-E25353 {
+            background-color: #E25353;
+        }
+        
+        .bcolor-444B54 {
+            background-color: #444B54;
+        }
+        
+        .bcolor-607DA0 {
+            background-color: #607DA0;
+        }
+        
+        .bcolor-E28353 {
+            background-color: #E28353;
+        }
+        
+        .bcolor-525A7F {
+            background-color: #525A7F;
+        }
+        
+        .bcolor-5EB9B3 {
+            background-color: #5EB9B3;
+        }
+        
+        .bcolor-6496C1 {
+            background-color: #6496C1;
+        }
+        
+        figure.snip1084 {
+            color: #fff;
+            position: relative;
+            float: left;
+            overflow: hidden;
+            margin: 10px 1%;
+            min-width: 220px;
+            max-width: 310px;
+            max-height: 220px;
+            text-align: center;
+            transition: background-color ease 0.5s;
+            cursor: pointer;
+        }
+        
+        figure.snip1084:hover {
+            background: #1b242f;
+        }
+        
+        figure.snip1084 * {
+            -webkit-box-sizing: padding-box;
+            box-sizing: padding-box;
+            -webkit-transition: all 0.3s ease-out;
+            transition: all 0.3s ease-out;
+        }
+        
+        figure.snip1084 figcaption {
+            top: 50%;
+            left: 40px;
+            right: 40px;
+            position: absolute;
+            -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+        }
+        
+        figure.snip1084 figcaption h2 {
+            position: relative;
+            font-weight: 300;
+            margin: 0;
+            -webkit-transform: translateY(50%);
+            transform: translateY(50%);
+            font-size: 4em;
+            line-height: 1.8em;
+        }
+        
+        figure.snip1084 figcaption p {
+            font-size: 1em;
+            opacity: 0;
+            margin: 0;
+        }
+        
+        figure.snip1084.size {
+            width: 50%;
+            padding: 50%;
+            margin: 0;
+        }
+        
+        figure.snip1084:hover figcaption h2,
+        figure.snip1084.hover figcaption h2,
+        figure.snip1084:hover figcaption p,
+        figure.snip1084.hover figcaption p {
+            opacity: 1;
+            border-color: rgba(255, 255, 255, 0.5);
+            -webkit-transition-delay: 0.2s;
+            transition-delay: 0.2s;
+            -webkit-transform: translateY(0);
+            transform: translateY(0);
+        }
+        
+        figure.snip1084:hover figcaption p,
+        figure.snip1084.hover figcaption p {
+            -webkit-transition-delay: 0.3s;
+            transition-delay: 0.3s;
+        }
+        
+        figcaption.bootstrap-ico-position {
+            top: 43% !important;
+        }
+        
+        .small-skill-title {
+            font-weight: 700;
+            font-size: 1.2em;
+            display: block;
         }
         /* page four */
         
