@@ -58,49 +58,51 @@
             <div class="col"> -->
         <h2 class="skillText text-center">Habilidades</h2>
         <div class="row">
-            <div class="card-group">
-                <div class="col">
-                    <div class="card">
-                        <i class="devicon-html5-plain-wordmark"></i>
-                        <div class="card-body">
-                            <h5 class="card-title">HTML5</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card">
-                        <i class="devicon-css3-plain-wordmark"></i>
-                        <div class="card-body">
-                            <h5 class="card-title">CSS3</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card">
-                        <i class="devicon-javascript-plain"></i>
-                        <div class="card-body">
-                            <h5 class="card-title">JAVASCRIPT</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card">
-                        <i class="devicon-angularjs-plain"></i>
-                        <div class="card-body">
-                            <h5 class="card-title">ANGULAR</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card">
-                        <i class="devicon-bootstrap-plain-wordmark"></i>
-                        <div class="card-body">
-                            <h5 class="card-title">BOOTSTRAP</h5>
-                        </div>
+            <!-- <div class="card-group"> -->
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <div class="card">
+                    <i class="devicon-html5-plain-wordmark"></i>
+                    <div class="card-body">
+                        <h5 class="card-title">HTML5</h5>
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <div class="card">
+                    <i class="devicon-css3-plain-wordmark"></i>
+                    <div class="card-body">
+                        <h5 class="card-title">CSS3</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <div class="card">
+                    <i class="devicon-javascript-plain"></i>
+                    <div class="card-body">
+                        <h5 class="card-title">JAVASCRIPT</h5>
+                    </div>
+                </div>
+            </div>
+            <!-- </div> -->
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <div class="card">
+                    <i class="devicon-angularjs-plain"></i>
+                    <div class="card-body">
+                        <h5 class="card-title">ANGULAR</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <div class="card">
+                    <i class="devicon-bootstrap-plain-wordmark"></i>
+                    <div class="card-body">
+                        <h5 class="card-title">BOOTSTRAP</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12">
                 <div class="card">
                     <i class="devicon-git-plain-wordmark"></i>
                     <div class="card-body">
@@ -108,7 +110,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col-md-4 col-sm-12 col-xs-12">
                 <div class="card">
                     <i class="devicon-github-plain-wordmark colored"></i>
                     <div class="card-body">
@@ -116,7 +118,9 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-sm-12 col-xs-12">
                 <div class="card">
                     <i class="devicon-nodejs-plain"></i>
                     <div class="card-body">
@@ -124,7 +128,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col-md-4 col-sm-12 col-xs-12">
                 <div class="card">
                     <i class="devicon-visualstudio-plain"></i>
                     <div class="card-body">
@@ -132,9 +136,9 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col-md-4 col-sm-12 col-xs-12">
                 <div class="card">
-                    <img class="imgFire" src="./img/Built_with_Firebase_Logo_Dark (1).png" alt="height 30px">
+                    <img class="imgFire text-center" src="./img/Built_with_Firebase_Logo_Dark (1).png" alt="height 30px">
                     <div class="card-body">
                         <h5 class="card-title">FIREBASE</h5>
                     </div>
@@ -145,46 +149,60 @@
 
     <!-- page four -->
 
-    <section id="project" class="container-fluid">
-        <div class="card" style="max-width: 20rem; height: 31rem;">
-            <img src="./img/Cipher-Code.png" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Codigo Secreto</h5>
-                <p class="card-text">En mi primer proyecto, Aplicacion web de mensajeria, donde se pueda crear un mensaje secreto con la tecnica de cifrado Cesar.
-                </p>
-            </div>
-            <div class="card-body">
-                <a href="https://fabytapia.github.io/SCL008-Cipher/src/index.html" class="btn btn-primary">Demo</a></small>
+    <div class="container" id="projects">
+        <h2 class=" text-center">Proyectos</h2>
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <!--card de los proyectos-->
+                <div class="scene">
+                    <label class="card-wrap">
+                        <input type="checkbox" class="flipcard">
+                <div class="card">
+                        <div class="front card-face">
+                                <img src="./img/Cipher-Code.png" class="card-photo" alt="...">
+                        </div>
+                        <div class="back card-face">
+                            <h5>Codigo Secreto</h5>
+                            <p>En mi primer proyecto, Aplicacion web de mensajeria, donde se pueda crear un mensaje secreto con la tecnica de cifrado Cesar.</p>
+                            <a href="https://fabytapia.github.io/SCL008-Cipher/src/index.html" class="btn btn-primary">Demo</a></small>
+                            <a href="https://github.com/FabyTapia/SCL008-Cipher" class="btn btn-primary">Github</a></small>
+                        </div>
+                    </div>
+                </label>
+                    <label class="card-wrap">
+                    <input type="checkbox" class="flipcard">
+                    <div class="card">
+                        <div class="front card-face">
+                                <img src="./img/Champions-Data.png" class="card-photo" alt="...">
+                        </div>
+                        <div class="back card-face">
+                            <h5>Champions-Data</h5>
+                            <p> Aplicación para novatos en el universo LOL. Se visualizan a los champions y filtra por tipo de juego (rol).</p>
+                            <a href="https://fabytapia.github.io//SCL008-data-lovers/src/index.html" class="btn btn-primary">Demo</a></small>
                 </a>
-                <a href="https://github.com/FabyTapia/SCL008-Cipher" class="btn btn-primary">Github</a></small>
+                <a href="https://github.com/FabyTapia/SCL008-data-lovers" class="btn btn-primary">Github</a></small>  
+                </div>
+                    </div>
+                </label>
+                    <label class="card-wrap">
+                    <input type="checkbox" class="flipcard">
+                    <div class="card">
+                        <div class="front card-face">
+                                <img src="./img/Pase-noma.png"  alt="" class="card-photo">
+                            </div>
+                            <div class="back card-face">
+                            <h5>Pase noma</h5>
+                                <p>Aplicación desarrollada para tablets que facilitará tu registro de visitas, en recepciones y guarda informacion en firebase. </p>
+                                <a href="https://fabytapia.github.io/SCL008-Cipher/src/index.html" class="btn btn-primary">Demo</a></small>
+                                <a href="https://github.com/FabyTapia/SCL008-visitors" class="btn btn-primary">Github</a></small>
+                            </div>
+                        </div>
+                    </label>
+                </div>
             </div>
         </div>
-        <div class="card" style="max-width: 20rem; height: 31rem;">
-            <img src="./img/Champions-Data.png" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Champions-Data</h5>
-                <p class="card-text">Aplicación para novatos en el universo LOL. Se visualizan a los champions y filtra por tipo de juego (rol).
-                </p>
-            </div>
-            <div class="card-body">
-                <a href="https://fabytapia.github.io//SCL008-data-lovers/src/index.html" class="btn btn-primary">Demo</a></small>
-                </a>
-                <a href="https://github.com/FabyTapia/SCL008-data-lovers" class="btn btn-primary">Github</a></small>
-            </div>
-        </div>
-        <div class="card" style="max-width: 20rem; height: 31rem;">
-            <img src="./img/Pase-noma.png" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Pase noma</h5>
-                <p class="card-text">Aplicación desarrollada para tablets que facilitará tu registro de visitas, en recepciones y guarda informacion en firebase; </p>
-            </div>
-            <div class="card-body">
-                <a href="https://fabytapia.github.io/SCL008-visitors/" class="btn btn-primary">Demo</a></small>
-                </a>
-                <a href="https://github.com/FabyTapia/SCL008-visitors" class="btn btn-primary">Github</a></small>
-            </div>
-        </div>
-    </section>
+    </div>
+
 
     <!-- page five -->
 
