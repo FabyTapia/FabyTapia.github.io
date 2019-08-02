@@ -104,8 +104,14 @@
         }
         
         .cardSkill {
-            border-radius: 160px;
-            border: 10px solid orange;
+            /* border-radius: 160px;
+            border: 10px solid orange; */
+            width: 100px;
+            height: 100px;
+            -moz-border-radius: 50% 10px solid orange;
+            ;
+            -webkit-border-radius: 50%;
+            border-radius: 50%;
         }
         /* page four */
         
@@ -124,7 +130,7 @@
             width: 230px;
             height: 100px;
             margin-left: 54px;
-            margin-top: 80px;
+            margin-top: 60px
         }
         
         h5 {
