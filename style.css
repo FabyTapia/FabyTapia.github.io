@@ -34,7 +34,7 @@
         /* pag one */
         
         #home {
-            background: #1c1c1c;
+            background-color: #1c1c1c;
             /* #692F6F; */
             display: flex;
             padding-top: 200px;
@@ -91,7 +91,7 @@
         /* page three */
         
         #skill {
-            background-color: white;
+            background-color: #989898;
             display: flex;
             flex-flow: column wrap;
             padding-top: 60px;
@@ -101,13 +101,18 @@
         .skillText {
             color: #1c1c1c!important;
         }
+        
+        .cardSkill {
+            border-radius: 160px;
+            border: 10px solid orange;
+        }
         /* page four */
         
         i {
             display: flex;
             font-size: 100px;
-            margin-left: 90px;
-            margin-top: 70px;
+            margin-left: 109px;
+            margin-top: 60px;
         }
         
         .card-title {
@@ -117,23 +122,14 @@
         .imgFire {
             width: 230px;
             height: 100px;
-            margin-left: 40px;
-            margin-top: 60px;
-        }
-        
-        #project {
-            display: flex;
-            justify-content: space-between;
-            background-color: #7d4d9b;
-            padding-top: 100px;
-            min-height: 100vh;
-            padding-bottom: 30px;
+            margin-left: 54px;
+            margin-top: 80px;
         }
         
         h5 {
             font-family: 'Francois One', sans-serif;
             font-size: 25px;
-            margin-top: 2rem;
+            margin-top: 4rem;
         }
         
         .fot {
@@ -190,6 +186,7 @@
         
         .card-photo {
             border-radius: 10px;
+            background-color: black;
         }
         
         .card:hover {
@@ -197,7 +194,7 @@
         }
         
         .back {
-            background: #60384F;
+            background: #212529;
             transform: rotateY( 180deg);
             text-align: center;
             color: white;
@@ -212,6 +209,7 @@
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
+            padding-top: 100px;
         }
         
         .flipcard {
@@ -232,17 +230,84 @@
         h5 {
             font-size: 1.5em;
         }
+        
+        #project {
+            padding-top: 186px;
+            min-height: 100vh;
+            background-color: #1c1c1c;
+        }
+        
+        .btn-primary {
+            color: white;
+            background-color: orange!important;
+            border-color: orange;
+        }
         /* page five */
         
         #contact {
-            background: #989898;
-            display: flex;
-            justify-content: center;
             padding-top: 140px;
             height: 100vh;
+            padding: 29vh 0;
+            background-color: #989898;
+        }
+        
+        .contactText {
+            color: orange;
+        }
+        
+        #contact i {
+            font-size: 3em;
+            margin: 0.3em;
+        }
+        
+        #contact a:link {
+            color: #1b242f!important;
+        }
+        
+        #contact a:visited {
+            color: #1b242f!important;
+        }
+        
+        #contact a:hover {
+            color: #c06c84;
+        }
+        
+        #contact a:active {
+            color: #c06c84;
+        }
+        
+        #contact p {
+            font-size: 1.5em;
+            margin: 0;
+        }
+        
+        .btn {
+            transition: ease all 1s;
         }
         
         img {
             display: flex;
             font-size: 100px;
+        }
+        
+        .icon-links i {
+            margin: 0.5em;
+            display: inline;
+        }
+        
+        .download-cv-box {
+            display: block;
+        }
+        
+        .btn-outline-info {
+            color: orange;
+            background-color: transparent;
+            background-image: none;
+            border-color: orange;
+        }
+        
+        .btn-outline-info:hover {
+            color: orange;
+            background-color: #e09fa6;
+            border-color: black;
         }
