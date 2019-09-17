@@ -6,7 +6,7 @@
         }
         
         .navbar {
-            position: relative!important;
+            position: sticky;
             width: 100%;
             background-color: orange;
         }
