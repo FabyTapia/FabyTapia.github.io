@@ -97,6 +97,7 @@
             flex-flow: column wrap;
             padding-top: 60px;
             min-height: 100vh;
+            padding-bottom: 40px;
         }
         
         .skillText {
@@ -109,7 +110,6 @@
             width: 100px;
             height: 100px;
         }
-        /* page four */
         
         i {
             display: flex;
@@ -129,113 +129,15 @@
             margin-top: 60px
         }
         
-        h5 {
-            font-family: 'Francois One', sans-serif;
-            font-size: 25px;
-            margin-top: 4rem;
-        }
-        
-        .fot {
-            margin-top: 17rem;
-        }
-        
         .image {
             width: 298px;
             height: 398px;
             border-radius: 10px;
         }
-        
-        .input {
-            position: absolute;
-        }
-        
-        .scene {
-            width: 1440px;
-            max-width: 100%;
-            min-height: 100vh;
-            margin: auto;
-            padding: 40px 30px;
-        }
-        
-        .card-wrap {
-            display: block;
-            width: 300px;
-            max-width: 100%;
-            height: 400px;
-            margin: 0 auto;
-            margin-bottom: 15px;
-        }
-        
-        .card,
-        .front,
-        .back,
-        .card-photo {
-            width: 100%;
-            height: 100%;
-        }
-        
-        .card-face {
-            position: absolute;
-            backface-visibility: hidden;
-        }
-        
-        .card {
-            position: relative;
-            transform-style: preserve-3d;
-            transition: transform 1s, box-shadow .4s;
-            box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.302), 0 1px 3px 1px rgba(60, 64, 67, 0.149);
-            border-radius: 10px;
-        }
-        
-        .card-photo {
-            border-radius: 10px;
-            background-color: black;
-        }
-        
-        .card:hover {
-            box-shadow: 0 1px 3px 0 rgba(60, 64, 67, 0.302), 0 4px 8px 3px rgba(60, 64, 67, 0.149);
-        }
-        
-        .back {
-            background: #212529;
-            transform: rotateY( 180deg);
-            text-align: center;
-            color: white;
-            border-radius: 10px;
-            font-family: 'Raleway', sans-serif;
-            font-weight: 600;
-        }
-        
-        .back p {
-            margin: 0;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            padding-top: 100px;
-        }
-        
-        .flipcard {
-            opacity: 0;
-        }
-        
-        input:checked+.card {
-            transform: rotateY( 180deg);
-        }
-        
-        @media screen and (min-width: 960px) {
-            .scene {
-                display: flex;
-                justify-content: space-around;
-            }
-        }
-        
-        h5 {
-            font-size: 1.5em;
-        }
+        /* page four */
         
         #project {
-            padding-top: 186px;
+            padding-top: 80px;
             min-height: 100vh;
             background-color: #1c1c1c;
         }
